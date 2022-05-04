@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.information.InformationFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="	With climate change a continuing threat, doing things to help the environment is getting more important.  Recycling is one of the ways that the general public can contribute to a better world. Reducing the things that end up in landfills or in our waterways will help stop the progression.  But recycling isn’t as easy as throwing anything in the cycling bins. There are certain things that make things recyclable and making sure you follow the rules ensures that they will be processed correctly.
+
+When it comes to plastics, only a certain few can be recycled. Somewhere on the item
+ will be a triangle with a number on it. The only numbers that can be recycled are plastics with 1 and 2 on them.
+
+All products must be clean before you try to recycle them. This makes them more desirable to recycling facilities.
+
+Finally, if you are able to reuse the material, reuse it! Keeping things out of the recycling facilities and reusing them is the. Instead of asking for a bag at the store, keep reusing them.
+
+Recycling is a good practice to keep our world clean. We only get one world and we have to take care of it! "
+            android:inputType="textMultiLine"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintEnd_toStartOf="@+id/scrollView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
